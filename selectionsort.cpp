@@ -1,3 +1,9 @@
+void DataSwap(int*data1, int* data2) {
+	int temp = *data1;
+	*data1 = *data2;
+	*data2 = temp;
+}
+
 void SelectionSort(int* pDataArray, int iDataNum) {
 	int i, j, index;
 	for(i = 0; i < iDataNum -1; i++){
